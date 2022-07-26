@@ -6,7 +6,7 @@ android {
     compileSdkVersion 29
     buildToolsVersion "29.0.3"
     defaultConfig {
-        applicationId "com.huawei.codelabpush"
+        applicationId "one.yufz.pushtest"
         // minSdkVersion at lest be 24
         minSdkVersion 24
         targetSdkVersion 29
@@ -16,12 +16,16 @@ android {
     }
 
     signingConfigs {
-	    // Please replace 'xxx' with your own signature certificate information
+        //fill gradle.properties with :
+	    //STORE_FILE_PATH=xxx
+        //STORE_PASSWORD=xxx
+        //KEY_ALIAS=xxx
+        //KEY_PASSWORD=xxx
         config {
-            storeFile file('xxx.xxx')
-            keyAlias 'xxx'
-            keyPassword 'xxx'
-            storePassword 'xxx'
+            storeFile file(STORE_FILE_PATH)
+            keyAlias KEY_ALIAS
+            keyPassword KEY_PASSWORD
+            storePassword STORE_PASSWORD
             v1SigningEnabled true
             v2SigningEnabled true
         }

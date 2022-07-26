@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">PushKitDemoV4</string>
+    <string name="app_name">HMSPushTest</string>
     <string name="getToken">Get Token</string>
     <string name="deleteToken">Delete Token</string>
     <string name="set_push_unable">TurnOff Push</string>
