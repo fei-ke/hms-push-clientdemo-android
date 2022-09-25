@@ -22,17 +22,6 @@
             android:name="push_kit_auto_init_enabled"
             android:value="false" />
 
-        <activity android:name="com.huawei.loveandshare.DeeplinkActivity">
-            <intent-filter>
-                <action android:name="android.intent.action.VIEW" />
-                <category android:name="android.intent.category.DEFAULT" />
-                <category android:name="android.intent.category.BROWSABLE" />
-                <data
-                    android:host="com.huawei.codelabpush"
-                    android:path="/deeplink"
-                    android:scheme="pushscheme" />
-            </intent-filter>
-        </activity>
 
         <activity android:name="com.huawei.loveandshare.MainActivity">
             <intent-filter>

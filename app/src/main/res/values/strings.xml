@@ -1,12 +1,7 @@
 <resources>
     <string name="app_name">HMSPushTest</string>
-    <string name="getToken">Get Token</string>
-    <string name="deleteToken">Delete Token</string>
-    <string name="set_push_unable">TurnOff Push</string>
-    <string name="set_push_enable">TurnOn Push</string>
-    <string name="add_subscribe_topic">Subscribe</string>
-    <string name="get_aaid">Get AAID</string>
-    <string name="delete_aaid">Delete AAID</string>
+    <string name="getToken">注册推送</string>
+    <string name="deleteToken">取消注册</string>
     <string name="cancel">Cancel</string>
     <string name="confirm">Confirm</string>
     <string name="add_topic">subscribe topic name</string>
